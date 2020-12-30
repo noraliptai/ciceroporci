@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>Ciceró és Porci</title>
+		<link rel="stylesheet" type="text/css" href="ciceroporci3-style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+	<body>	
+		<div id="whole">
+			<div id="header">
+				<h1>Ciceró és Porci honlapja</h1>
+            </div>
+            <div id="content">
+                <div id="menu">
+                    <h3>Tartalom</h3>
+                        <ul>
+                            <li><a href=index.html>Bemutatkozás</a></li>
+                            <li><a href=cicero.html>Ciceró</a></li>
+                            <li><a href=porci.html>Porci</a></li>
+                            <li><a href=rajongoi.html>Feliratkozás</a></li>
+                            <li><a href=kviz.html>Kvíz</a></li>
+                        </ul>
+                </div>
+                <div id="info">			
+                    <h2>Regisztráció rajongóknak</h2>
+                    
+                    <form method="GET">
+						<div class="row">
+							<div class="formleft"><label for="name">Név:</label></div>
+							<div class="formright"><input type="text" name="name" id="fanname"></div>
+						</div>
+						<div class="row">
+							<div class="formleft"><label for="gender">Nem:</label></div>
+							<div class="formright">
+								<input type="radio" name="gender" value="Mi nem?">Mi nem?<br>
+								<input type="radio" name="gender" value="De!">De!<br>
+								<input type="radio" name="gender" value="Ivartalan">Ivartalan<br>
+							</div>
+						</div>
+						<div class="row">
+							<div class="formleft"><label for="email">E-mail:</label></div>
+							<div class="formright"><input type="email" name="email"></div>
+						</div>
+						<div class="row">
+							<div class="formleft"><label for="country">Ország:</label></div>
+							<div class="formright">
+								<select name="country">
+									<option value="Magyarország">Magyarország</option>
+									<option value="Cicerország">Cicerország</option>
+									<option value="Porcigália">Porcigália</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="formleft"><label for="birthday">Elválasztási idő:</label></div>
+							<div class="formright"><input type="date" name="birthday"></div>
+						</div>
+						<div class="row">
+							<div class="formleft"><label>Kedvenc étel:</label></div>
+								<div class="formright">
+									<input type="checkbox" name="Whiskas">Whiskas<br>
+									<input type="checkbox" name="Shah">Shah<br>
+									<input type="checkbox" name="száraztáp">Csak a száraz!<br>
+									<input type="checkbox" name="lopott kaja">Mindegy, csak én lophassam el<br>
+								</div>
+						</div>
+						<div class="row">
+							<!-- <input type="submit" value="Regisztrálok!" id="regbutton">
+							<input type="reset" value="Inkább mégse..."> -->
+						</div>
+					</form>
+					<button>Regisztrálok!</button>
+					<h3 id="welcome"></h3>
+                </div>
+            </div>
+            <div id="footer">
+                További információ: ciceroesporci@macskak.hu
+            </div>
+		</div>
+		<script src = "registration.js"></script>
+	</body>
+</html>

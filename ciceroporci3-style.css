@@ -1,0 +1,199 @@
+body{
+	background-color: #9C5500;
+	font-family: Calibri, sans-serif;
+}
+
+h1{
+	margin: 0;
+}
+
+#whole{
+	background-color: #FFF5AE;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header{
+	background-color: #9C5500;
+	color: #FFF5AE;
+	text-align: center;
+	padding: 10px;
+}
+
+#content{
+	padding: 5px 20px 5px 20px; 
+}
+
+#menu{
+	width: 160px;
+	float: left;
+	margin-right: 20px;
+}	
+
+#menu ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#menu ul li {
+	margin-top: 10px;
+	border-radius: 10px;
+	background-color: #9C5500;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+li a{
+	text-decoration: none;
+	padding: 10px;
+	color: #FFF5AE;
+	display: block;
+}
+
+li a:hover {
+	background-color: #e67300;
+	border-radius: 10px;
+}
+
+#info{
+	width: 560px;
+    float: right;
+	text-align: center;
+	padding-left: 20px;
+}	
+
+h2{
+    padding: 0;
+    text-align: center;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-style: solid;
+	border-width: medium;
+	border-color: #9C5500;
+}
+
+#info img {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+#info p, ul {
+    margin-top: -10px;
+    text-align: left;
+}
+
+form {
+	text-align: left;
+}
+
+#footer {
+	clear: both;
+	text-align: right;
+	background-color: #9C5500;
+	color: #FFF5AE;
+	padding: 10px;
+}
+
+button {
+	margin-bottom: 30px;
+	padding: 10px;
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	background-color: #9C5500;
+	color: #FFF5AE;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #e67300;
+}
+
+.question {
+	border: 1px solid black;
+	font-style: italic;
+	font-size: 1.5em;
+	padding: 10px;
+}
+
+.singleanswer {
+	width: 60%;
+	margin: 20px auto;
+	padding: 10px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.singleanswer:hover {
+	background-color: #cccccc;
+	cursor: pointer;
+}
+
+.correctanswer {
+	background-color: #33cc00;
+}
+
+.correctanswer:hover {
+	background-color: #33cc00;
+}
+
+.wronganswer {
+	background-color: #e62e00;
+}
+
+.wronganswer:hover {
+	background-color: #e62e00;
+}
+
+.message {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+input[type=text], input[type=email], input[type=date], select {
+	padding: 5px;
+	border-color: #9C5500;
+}
+
+input[type=submit], input[type=reset] {
+	margin: 20px 20px 5px 0px;
+	padding: 5px 10px;
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+}
+
+form label {
+	font-style: italic;
+}
+
+.formleft {
+	float: left;
+	width: 25%;
+}
+
+.formright {
+	float: left;
+	width: 75%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.row {
+	margin-top: 15px;
+}
+
+.fan {
+	color: #33cc00;
+	font-style: italic;
+}
